@@ -1,0 +1,31 @@
+body { background-color:#fff; }
+.hb-custom-header #mk-page-introduce,
+.mk-header { background-color:#f7f7f7; }
+.hb-custom-header > div,
+.mk-header-bg { background-color:#fff; }
+.mk-classic-nav-bg { background-color:#fff; }
+.master-holder-bg { background-color:#fff; }
+#mk-footer { background-color:#3d4045; }
+#mk-boxed-layout { -webkit-box-shadow:0 0 0px rgba(0, 0, 0, 0);
+  -moz-box-shadow:0 0 0px rgba(0, 0, 0, 0);
+   box-shadow:0 0 0px rgba(0, 0, 0, 0); }
+   .mk-news-tab .mk-tabs-tabs .is-active a,
+   .mk-fancy-title.pattern-style span,
+   .mk-fancy-title.pattern-style.color-gradient span:after,
+   .page-bg-color { background-color:#fff; }
+   .page-title { font-size:20px; color:; text-transform:uppercase; font-weight:normal; letter-spacing:2px; }
+   .page-subtitle { font-size:14px; line-height:100%; color:; font-size:14px; text-transform:none; }
+
+   body { font-family:MuseoSans }
+   @font-face { font-family:'CoText';
+   src:url('../fonts/co-text/font.eot');
+   src:url('../fonts/co-text/font-1.eot') format('embedded-opentype'),
+   url('../fonts/co-text/font.woff') format('woff'),
+   url('../fonts/co-text/font.ttf') format('truetype')}
+
+
+   @font-face { font-family:'MuseoSans';
+   src:url('../fonts/museo-sans/font.eot');
+   src:url('../fonts/museo-sans/font-1.eot') format('embedded-opentype'),
+   url('../fonts/museo-sans/font.woff') format('woff'),
+   url('../fonts/museo-sans/font.ttf') format('truetype')}

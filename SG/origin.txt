@@ -1,0 +1,188 @@
+Uri: http://supergeneration.al/
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\index.html
+Content Type: text/html
+
+Uri: http://supergeneration.al/images/favicon.png
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\images\favicon.png
+Content Type: image/png
+
+Uri: http://supergeneration.al/fonts/font-awesome/css/font-awesome.min.css
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\fonts\font-awesome\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: http://supergeneration.al/css/dashicon.min.css
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\css\dashicon.min.css
+Content Type: text/css
+
+Uri: http://supergeneration.al/css/frontend.css
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\css\frontend.css
+Content Type: text/css
+
+Uri: http://supergeneration.al/css/fullstyles.min.css
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\css\fullstyles.min.css
+Content Type: text/css
+
+Uri: http://supergeneration.al/css/theme-styles.css
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\css\theme-styles.css
+Content Type: text/css
+
+Uri: http://supergeneration.al/css/render.css
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\css\render.css
+Content Type: text/css
+
+Uri: http://supergeneration.al/css/row.css
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\css\row.css
+Content Type: text/css
+
+Uri: http://supergeneration.al/css/column.css
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\css\column.css
+Content Type: text/css
+
+Uri: http://supergeneration.al/css/js_composer.min.css
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\css\js_composer.min.css
+Content Type: text/css
+
+Uri: http://supergeneration.al/css/dynamic-theme-options.css
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\css\dynamic-theme-options.css
+Content Type: text/css
+
+Uri: http://supergeneration.al/css/shortcode.css
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\css\shortcode.css
+Content Type: text/css
+
+Uri: http://supergeneration.al/js/jquery.js
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\js\jquery.js
+Content Type: application/javascript
+
+Uri: http://supergeneration.al/js/jquery-migrate.min.js
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\js\jquery-migrate.min.js
+Content Type: application/javascript
+
+Uri: http://supergeneration.al/images/super-generation-logo.png
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\images\super-generation-logo.png
+Content Type: image/png
+
+Uri: http://supergeneration.al/images/white_logo.png
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\images\white_logo.png
+Content Type: image/png
+
+Uri: http://supergeneration.al/images/background-text.png
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\images\background-text.png
+Content Type: image/png
+
+Uri: http://supergeneration.al/images/partners1.png
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\images\partners1.png
+Content Type: image/png
+
+Uri: http://supergeneration.al/images/phase1.png
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\images\phase1.png
+Content Type: image/png
+
+Uri: http://supergeneration.al/images/phase2.png
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\images\phase2.png
+Content Type: image/png
+
+Uri: http://supergeneration.al/images/phase3.png
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\images\phase3.png
+Content Type: image/png
+
+Uri: http://supergeneration.al/images/cat1.png
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\images\cat1.png
+Content Type: image/png
+
+Uri: http://supergeneration.al/images/cat2.png
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\images\cat2.png
+Content Type: image/png
+
+Uri: http://supergeneration.al/images/cat3.png
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\images\cat3.png
+Content Type: image/png
+
+Uri: http://supergeneration.al/js/comment-reply.min.js?
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\js\comment-reply.min.js
+Content Type: application/javascript
+
+Uri: http://supergeneration.al/js/core-scripts.js
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\js\core-scripts.js
+Content Type: application/javascript
+
+Uri: http://supergeneration.al/js/components-full.js
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\js\components-full.js
+Content Type: application/javascript
+
+Uri: http://supergeneration.al/js/smoothscroll.js
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\js\smoothscroll.js
+Content Type: application/javascript
+
+Uri: http://supergeneration.al/js/render.js
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\js\render.js
+Content Type: application/javascript
+
+Uri: http://supergeneration.al/js/column.js
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\js\column.js
+Content Type: application/javascript
+
+Uri: http://supergeneration.al/js/embed.min.js
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\js\embed.min.js
+Content Type: application/javascript
+
+Uri: http://supergeneration.al/js/js_composer_front.min.js
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\js\js_composer_front.min.js
+Content Type: application/javascript
+
+Uri: http://supergeneration.al/fonts/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\fonts\font-awesome\fonts\fontawesome-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://supergeneration.al/fonts/font-awesome/fonts/fontawesome-webfont.eot?
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\fonts\font-awesome\fonts\fontawesome-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://supergeneration.al/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\fonts\font-awesome\fonts\fontawesome-webfont.woff2
+Content Type: font/woff2
+
+Uri: http://supergeneration.al/fonts/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\fonts\font-awesome\fonts\fontawesome-webfont.woff
+Content Type: font/woff
+
+Uri: http://supergeneration.al/fonts/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\fonts\font-awesome\fonts\fontawesome-webfont.ttf
+Content Type: font/ttf
+
+Uri: http://supergeneration.al/fonts/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\fonts\font-awesome\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: http://supergeneration.al/fonts/co-text/font.eot
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\fonts\co-text\font.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://supergeneration.al/fonts/co-text/font.eot?
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\fonts\co-text\font-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://supergeneration.al/fonts/co-text/font.woff
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\fonts\co-text\font.woff
+Content Type: font/woff
+
+Uri: http://supergeneration.al/fonts/co-text/font.ttf
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\fonts\co-text\font.ttf
+Content Type: font/ttf
+
+Uri: http://supergeneration.al/fonts/museo-sans/font.eot
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\fonts\museo-sans\font.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://supergeneration.al/fonts/museo-sans/font.eot?
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\fonts\museo-sans\font-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://supergeneration.al/fonts/museo-sans/font.woff
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\fonts\museo-sans\font.woff
+Content Type: font/woff
+
+Uri: http://supergeneration.al/fonts/museo-sans/font.ttf
+File Name: C:\Users\Mario\Desktop\SG\supergeneration.al\fonts\museo-sans\font.ttf
+Content Type: font/ttf
+
