@@ -1,0 +1,3 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+21:35:28	0/0	---MC-	301	error ('Moved%20Permanently')	text/html	date:Thu,%2023%20Jan%202020%2020:35:27%20GMT	http://crm.fxonspot.com/robots.txt		(from )
+21:35:28	0/0	---MC-	301	error ('Moved%20Permanently')	text/html	date:Thu,%2023%20Jan%202020%2020:35:28%20GMT	http://crm.fxonspot.com/	C:/Users/me/code/fxonspot/crm.fxonspot.com/index.html	(from )

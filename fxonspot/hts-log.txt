@@ -1,0 +1,15 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 23 Jan 2020 21:35:27 at crm.fxonspot.com +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" crm.fxonspot.com -O1 "C:\Users\me\code\fxonspot" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:35:28	Warning: 	Moved Permanently for crm.fxonspot.com/robots.txt
+21:35:28	Warning: 	Redirected link is identical because of 'URL Hack' option: crm.fxonspot.com/robots.txt and https://crm.fxonspot.com/robots.txt
+21:35:28	Warning: 	Warning moved treated for crm.fxonspot.com/robots.txt (real one is https://crm.fxonspot.com/robots.txt)
+21:35:28	Warning: 	Moved Permanently for crm.fxonspot.com/
+21:35:28	Warning: 	Redirected link is identical because of 'URL Hack' option: crm.fxonspot.com/ and https://crm.fxonspot.com/
+21:35:28	Warning: 	File has moved from crm.fxonspot.com/ to https://crm.fxonspot.com/
+21:35:28	Warning: 	No data seems to have been transferred during this session! : restoring previous one!
