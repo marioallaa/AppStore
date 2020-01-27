@@ -387,15 +387,15 @@ header .navbar {
 }
 
 .Modern-Slider .item-1 .img-fill {
-	background-image: url(../images/slide_01.jpg);
+	background-image: url(../images/1a.jpg);
 }
 
 .Modern-Slider .item-2 .img-fill {
-	background-image: url(../images/slide_02.jpg);
+	background-image: url(../images/1b.jpg);
 }
 
 .Modern-Slider .item-3 .img-fill {
-	background-image: url(../images/slide_03.jpg);
+	background-image: url(../images/1d.jpg);
 }
 
 .Modern-Slider .NextArrow{
@@ -580,7 +580,7 @@ ul.slick-dots {
 
 .fun-facts {
 	margin-top: 140px;
-	background-image: url(../images/fun-facts-bg.jpg);
+	background-image: url(../images/bcg.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -643,7 +643,8 @@ ul.slick-dots {
 /* More Info */
 
 .more-info {
-	margin-top: 140px;
+	margin-top: -120px;
+	margin-bottom: 140px;
 }
 
 .more-info .left-image img {
@@ -755,11 +756,13 @@ ul.slick-dots {
 }
 
 .callback-form {
-	margin-top: 140px;
+	margin-top: 140px;width: 100%;
+
 }
 
 .callback-form .contact-form {
-	background-color: #a03cff;
+	width: 100%;
+	background-color: #47226e;
 	padding: 60px;
 	border-radius: 5px;
 	text-align: center;
