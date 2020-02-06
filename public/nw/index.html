@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="socket.io.js"></script>
+    <script>
+      // const url = "http://localhost:3000";
+      const url = "https://delivery-server-nodejs.herokuapp.com/";
+      const socket = io(url);
+      socket.on("connect", function() {
+        console.log("Connected");
+        socket.emit("events", { test: "test" });
+        socket.emit("identity", 0, response =>
+          console.log("Identity:", response)
+        );
+      });
+      socket.on("events", function(data) {
+        console.log("event", data);
+      });
+      socket.on("strange_event", function(data) {
+        console.log("strange_event", data);
+      });
+      socket.on("delivery_started", function(data) {
+        console.log("delivery_started", data);
+      });
+      socket.on("delivery_updated", function(data) {
+        console.log("delivery_updated", data);
+      });
+      socket.on("exception", function(data) {
+        console.log("event", data);
+      });
+      socket.on("disconnect", function() {
+        console.log("Disconnected");
+      });
+
+      function sendLocation() {
+        $.ajax({
+          url: "/deliveries/asdcsdsdfs/start",
+          method: "POST",
+          data: {
+            user_id: 1,
+            latitude: 34.34434,
+            longitude: 34.3434,
+            invoices: [3]
+          },
+          success: function(response) {
+            alert(response.data);
+          },
+          error: function(err) {
+            console.log("err:", err.responseJSON);
+            alert(err.responseJSON.error);
+          }
+        });
+      }
+      function updateLocation() {
+        $.ajax({
+          url: "/deliverings/asdcsdsdfs",
+          method: "PUT",
+          data: {
+            latitude: 34.34434,
+            longitude: 34.3434
+          },
+          success: function(response) {
+            console.log("response:", response);
+            alert(response.data);
+          },
+          error: function(err) {
+            console.log("err:", err.responseJSON);
+            alert(err.responseJSON.error);
+          }
+        });
+      }
+    </script>
+  </head>
+
+  <body>
+    <button onclick="sendLocation()">Send current location</button>
+    <button onclick="updateLocation()">Update current location</button>
+  </body>
+</html>

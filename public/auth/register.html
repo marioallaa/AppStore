@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register | FXSafeInevst</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/icon.png"/>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!--===============================================================================================-->
+</head>
+<body>
+
+
+<div class="limiter">
+    <div class="container-login100" style="background-image: url('images/bg-01.jpg');">
+        <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
+					<span class="login100-form-title p-b-49">
+						Register <img src="../assets/logo/icon.png" width="64px" height="64px">
+					</span>
+
+            <div class="wrap-input100 validate-input m-b-23" data-validate="Username is required">
+                <span class="label-input100">Username</span>
+                <input class="input100" type="text" id="username" name="username" placeholder="Type your username">
+                <span class="focus-input100" data-symbol=""></span>
+            </div>
+
+            <div class="wrap-input100 validate-input" data-validate="Password is required">
+                <span class="label-input100">Password</span>
+                <input class="input100" type="password" id="pass" name="pass" placeholder="Type your password">
+                <span class="focus-input100" data-symbol=""></span>
+            </div>
+
+            <div class="wrap-input100 validate-input m-b-23" data-validate="Email is required">
+                <span class="label-input100">E-mail</span>
+                <input class="input100" type="text" id="email" name="email" placeholder="Type your email">
+                <!--						<span class="focus-input100" data-symbol="&#xf206;"></span>-->
+            </div>
+
+            <div class="wrap-input100 validate-input" data-validate="Phone Number is required">
+                <span class="label-input100">Phone Number</span>
+                <input class="input100" type="text" id="phone" name="phone" placeholder="Type your Phone Number">
+                <!--						<span class="focus-input100" data-symbol="&#xf190;"></span>-->
+            </div>
+
+            <div class="text-center p-t-8 p-b-31">
+                <p> Already a trader?
+                    <em> <a href="login.html">
+                        Sign In
+                    </a> </em></p>
+            </div>
+
+            <div class="container-login100-form-btn">
+                <div class="wrap-login100-form-btn">
+                    <div class="login100-form-bgbtn"></div>
+                    <button href="#done" id="#submitRegister" onclick="registerMe()" class="login100-form-btn">
+                        Register
+                    </button>
+                </div>
+            </div>
+
+            <div class="txt1 text-center p-t-54 p-b-20">
+						<span>
+							Or Sign Up Using
+						</span>
+            </div>
+            <script>
+            </script>
+
+            <div class="flex-c-m">
+                <a href="#" class="login100-social-item bg1">
+                    <i class="fa fa-facebook"></i>
+                </a>
+
+                <a href="#" class="login100-social-item bg2">
+                    <i class="fa fa-twitter"></i>
+                </a>
+
+                <a href="#" class="login100-social-item bg3">
+                    <i class="fa fa-google"></i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div id="done" class="overlay">
+    <div class="popup">
+        <h2>Here i am</h2>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+
+            <!-- 5 -->
+            <div class="loader loader--style5" title="4">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     width="24px" height="30px" viewBox="0 0 24 30" style="enable-background:new 0 0 50 50;"
+                     xml:space="preserve">
+    <rect x="0" y="0" width="4" height="10" fill="#333">
+      <animateTransform attributeType="xml"
+                        attributeName="transform" type="translate"
+                        values="0 0; 0 20; 0 0"
+                        begin="0" dur="0.6s" repeatCount="indefinite"></animateTransform>
+    </rect>
+                    <rect x="10" y="0" width="4" height="10" fill="#333">
+      <animateTransform attributeType="xml"
+                        attributeName="transform" type="translate"
+                        values="0 0; 0 20; 0 0"
+                        begin="0.2s" dur="0.6s" repeatCount="indefinite"></animateTransform>
+    </rect>
+                    <rect x="20" y="0" width="4" height="10" fill="#333">
+      <animateTransform attributeType="xml"
+                        attributeName="transform" type="translate"
+                        values="0 0; 0 20; 0 0"
+                        begin="0.4s" dur="0.6s" repeatCount="indefinite"></animateTransform>
+    </rect>
+  </svg>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script>
+
+    function registerMe() {
+        $(document).ready(function ($) {
+
+            var regData = {
+                username: $('#username').val(),
+                pass: CryptoJS.MD5($('#pass').val()).toString(),
+                email: $('#email').val(),
+                phone: $('#phone').val()
+            };
+            $.post("/u/register", regData, function (result) {
+                if (result.status === 0) {
+                    localStorage.setItem('token', result.token.access_token);
+                    console.log(localStorage.getItem('token'));
+                    fetch('/u/whatsMyName', {
+                        method: 'GET',
+                        headers: {
+                            'Authorization': 'Bearer ' + localStorage.getItem('token')
+                        }
+                    })
+                        .then(res => res.json())
+                        .then(data => {
+                            if (data.status === 0){
+                                window.location.replace("/dashboard.html");
+                            }
+                        })
+                        .catch(err => { console.log(err) })
+
+                } else {
+                    alert(result.message)
+                }
+
+
+            },);
+        });
+    }
+</script>
+
+
+<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/components/core.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/md5.js"></script>
+<!--===============================================================================================-->
+<!--===============================================================================================-->
+<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://unpkg.com/pure-md5@0.1.9/lib/index.js"></script>
+<!--===============================================================================================-->
+<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+<script src="vendor/bootstrap/js/popper.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+<script src="vendor/daterangepicker/moment.min.js"></script>
+<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+<script src="js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>jQuery.getJSON demo</title>
+
+    <link rel="stylesheet" href="assets/css/table.css">
+    <style>
+
+        img {
+            height: 100px;
+            float: left;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body>
+
+<table class="rwd-table" id="table" >
+    <tr>
+        <th> From</th>
+        <th> To </th>
+        <th> Buy </th>
+        <th> Sell</th>
+    </tr>
+    <tr>
+        <td id="1a"> </td>
+        <td id="1b"> </td>
+        <td id="1c"> </td>
+        <td id="1d"> </td>
+    </tr>
+    <tr>
+        <td id="2a"> </td>
+        <td id="2b"> </td>
+        <td id="2c"> </td>
+        <td id="2d"> </td>
+    </tr>
+    <tr>
+        <td id="3a"> </td>
+        <td id="3b"> </td>
+        <td id="3c"> </td>
+        <td id="3d"> </td>
+    </tr>
+    <tr>
+        <td id="4a"> </td>
+        <td id="4b"> </td>
+        <td id="4c"> </td>
+        <td id="4d"> </td>
+    </tr>
+    <tr>
+        <td id="5a"> </td>
+        <td id="5b"> </td>
+        <td id="5c"> </td>
+        <td id="5d"> </td>
+    </tr>
+
+</table>
+
+<script>
+
+    let currency = [
+        ['EUR', "USD"],
+        ['AUD', "JPY"],
+        ['GBP', "AUD"],
+        ['USD', "JPY"],
+        ['EUR', "JPY"]
+    ];
+
+    function getTable() {
+        $.each(currency, function (i, c) {
+            let api_url = "https://api.exchangeratesapi.io/latest?base="+c[0]+"&symbols="+c[1];
+            $.getJSON(api_url, {format: "json"}).done(function (d) {
+                let api_url = "https://api.exchangeratesapi.io/latest?base="+c[1]+"&symbols="+c[0];
+                $.getJSON(api_url, {format: "json"}).done(function (a) {
+                if (d){
+                    $('#'+i+"a").html(c[0]);
+                    $('#'+i+"b").html(c[1]);
+                    $('#'+i+"c").html(d['rates'][c[1]]);
+                    $('#'+i+"d").html(a['rates'][c[0]]);
+                }
+                })
+
+            })
+        })
+        console.log("loaded")
+    }
+    getTable();
+    setTimeout(getTable, 3000);
+</script>
+
+</body>
+</html>
